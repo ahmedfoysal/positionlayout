@@ -1,0 +1,86 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.header{
+	/*border: 2px solid red;*/
+	width: all;
+	height: 100vh;
+	/*margin-bottom: 2px;*/
+	background: url('https://s-media-cache-ak0.pinimg.com/originals/5e/11/90/5e119091b9d064d42e0b1d3df254c166.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.slider{
+	/*border: 2px solid red;*/
+	background-color: rgb(23,33,22);
+	height: auto;
+	display:inline-block;
+	width: 100%;
+}
+
+.intro{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.intro h1{
+	color: coral;
+	
+	transition: all 2s;
+	font-style: italic;
+	font-family: sans-serif;
+
+}
+.intro h1:hover{
+	transform: scale(1.5);
+	color: white;
+}
+button{
+	background: coral;
+	width: 200px;
+	height: 30px;
+	border: none;
+	color: white;
+	position: absolute;
+	margin-left: 20%;
+	border-radius: 15px;
+	transition: all 2s;
+}
+button:hover{
+	transform: scale(01.1);
+	
+}
+.overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100vh;
+}
+
+.box1{
+	/*border: 2px solid green;*/
+	float: left;
+	width: 29%;
+	height: auto;
+	padding-right: 35px;
+	margin-left: 5px;
+
+}
+#img1 {
+	width: 15%;
+	margin-left: 40%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.text1{
+	color: coral;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
